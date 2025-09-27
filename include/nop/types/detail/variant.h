@@ -238,7 +238,7 @@ union Union<Type> {
   Type first_;
 };
 
-// Specialization that recursively unions types from the paramater pack.
+// Specialization that recursively unions types from the parameter pack.
 template <typename First, typename... Rest>
 union Union<First, Rest...> {
   Union() {}
